@@ -1,0 +1,60 @@
+﻿PROFESSIONAL PROFILE
+
+Name: Archana Krishnan
+Location: India
+
+Professional Direction:
+AI Automation Engineer / GTM Engineer
+
+Education:
+- B.Tech in Electrical and Electronics Engineering (EEE)
+- Mahatma Gandhi University Kottayam
+- 2015
+- CGPA: 7.62/10
+
+Career Transition:
+- Transitioned from an EEE/lab-support background into AI Automation and GTM Engineering.
+- Focused on building AI-powered GTM workflows, CRM automations, API integrations, and revenue-intelligence systems.
+- EEE background provides a structured problem-solving and technical solution mindset.
+
+Core Hands-on Technologies:
+- n8n
+- HubSpot
+- Apollo MCP / Apollo
+- Clay
+- Groq LLM
+- OpenAI
+- Salesforce
+- FastAPI
+- Python
+- SQLAlchemy
+- SQLite
+- JSON / structured data
+- REST APIs
+- HTTP Requests
+- Webhooks
+- Docker
+- Git / GitHub
+- Excel / Google Sheets
+
+Additional Engineering Tools:
+- Xilinx Vivado
+- Cadence Virtuoso
+- Ngspice
+- LTspice
+- KiCad
+- TinkerCAD
+- Fusion 360
+- MATLAB
+- MS Office / Excel
+
+Professional Positioning:
+- AI Automation Engineer
+- GTM Engineer
+- AI-powered GTM workflow builder
+- CRM and revenue automation
+- API and SaaS integration
+- AI-assisted research, qualification, personalization, and sales workflows
+
+GitHub:
+https://github.com/archanakrishnan094-max

@@ -1,0 +1,274 @@
+﻿JOB APPLICATION & INTERVIEW KNOWLEDGE
+
+Candidate:
+Archana Krishnan
+
+Professional Direction:
+- AI Automation Engineer
+- GTM Engineer
+- AI GTM Engineer
+- AI Automation / Workflow Engineer
+- AI Revenue / RevOps Automation Engineer
+
+
+==================================================
+CORE PROFESSIONAL STORY
+==================================================
+
+Career transition:
+- B.Tech in Electrical and Electronics Engineering.
+- Previous experience in EEE/lab-support work.
+- Transitioned toward AI Automation and GTM Engineering through
+  hands-on AI, automation, CRM, API, and revenue-intelligence projects.
+- Strong interest in building practical AI-powered business workflows.
+- EEE background supports structured problem solving and technical
+  solution design.
+
+Positioning:
+- Hands-on AI automation builder.
+- GTM workflow and CRM automation focused.
+- Comfortable connecting APIs, SaaS tools, LLMs, databases,
+  spreadsheets, and CRM systems.
+- Focus on practical workflow implementation rather than only
+  theoretical AI knowledge.
+
+
+==================================================
+STRONGEST HANDS-ON AREAS
+==================================================
+
+- n8n workflow automation
+- HubSpot CRM
+- Apollo MCP / Apollo enrichment
+- Clay enrichment
+- Firecrawl website enrichment
+- Groq LLM
+- OpenAI
+- REST APIs
+- HTTP Requests
+- Webhooks
+- Structured JSON
+- Lead scoring
+- Company research
+- GTM qualification
+- Personalized outreach
+- Multi-step sales sequences
+- CRM record creation
+- CRM activity logging
+- Google Sheets / Excel
+- Python
+- FastAPI
+- SQLAlchemy
+- SQLite
+- Salesforce OAuth
+- Salesforce Opportunity integration
+- Git / GitHub
+- Docker
+
+
+==================================================
+WORKFLOW DEBUGGING EXAMPLES
+==================================================
+
+Example 1 — AI output was not valid structured JSON:
+- Problem:
+  An AI node returned normal text instead of the structured JSON
+  required by downstream workflow steps.
+- Approach:
+  Improved the prompt and instructions, explicitly defined the
+  required JSON structure, added examples, and tested the output
+  against downstream nodes.
+- Result:
+  The AI output became more predictable and usable by subsequent
+  automation steps.
+
+Example 2 — API limits / batch processing:
+- Problem:
+  Processing too many records at once caused inconsistent API
+  behaviour and limits.
+- Approach:
+  Reduced the batch size, tested progressively larger batches, and
+  identified a stable processing range.
+- Result:
+  Workflow became more reliable while still processing records
+  efficiently.
+
+Example 3 — Bulk outreach workflow:
+- Workflow:
+  Loop Over Items → HTTP Request → Wait
+- Problem:
+  Sending too many requests together created reliability issues.
+- Approach:
+  Reduced the batch size and introduced controlled waiting between
+  requests.
+- Result:
+  Outreach processing became more stable and controlled.
+
+
+==================================================
+REV IQ — CURRENT INTERVIEW POSITIONING
+==================================================
+
+Project:
+RevIQ AI Revenue Intelligence
+
+Status:
+IN PROGRESS — NOT COMPLETED
+
+Current implemented work:
+- Salesforce Developer Edition integration
+- Salesforce OAuth authentication
+- Access and refresh token handling
+- Salesforce Opportunity retrieval
+- Python backend
+- FastAPI
+- SQLAlchemy
+- SQLite
+- Opportunity CRUD
+- Revenue / deal risk engine
+- Automated tests
+
+Current architecture:
+Salesforce
+    ↓
+FastAPI / Python
+    ↓
+SQLite / SQLAlchemy
+    ↓
+Revenue / deal risk analysis
+
+Planned future work:
+- LangGraph orchestration
+- Gong-style meeting intelligence
+- postQrel
+- Additional AI revenue-intelligence agents
+- Dashboard
+- Additional integrations
+- Final integration and testing
+
+IMPORTANT:
+Never describe the planned RevIQ components as completed.
+Only describe features that are actually implemented and tested.
+
+
+==================================================
+CURRENT LEARNING BOUNDARIES
+==================================================
+
+The following should be described honestly as learning, planned,
+or future work rather than professional production experience:
+
+- RAG / vector databases
+- LangChain
+- LangGraph
+- CrewAI
+- AutoGen
+
+RevIQ is currently being used to build deeper experience with
+Python, FastAPI, Salesforce integration, OAuth, databases, and
+AI-agent orchestration.
+
+Do not claim professional experience with a technology that has
+only been studied or planned.
+
+
+==================================================
+INTERVIEW ANSWER STYLE
+==================================================
+
+Preferred answer structure:
+
+1. State the problem.
+2. Explain the approach.
+3. Explain what was actually implemented.
+4. Explain the result.
+5. Mention limitations or next steps when relevant.
+
+Answers should be:
+- Simple
+- Clear
+- Direct
+- Technically grounded
+- Based on genuine hands-on experience
+- Specific rather than overly theoretical
+
+Avoid:
+- Overclaiming professional experience.
+- Claiming unfinished projects are complete.
+- Using complicated terminology without explaining it.
+- Saying a tool was used professionally when it was only studied.
+- Giving vague answers without a concrete implementation example.
+
+
+==================================================
+COMMON GTM / AI AUTOMATION TOPICS
+==================================================
+
+Lead scoring:
+- Define sales qualification criteria.
+- Evaluate company or lead attributes.
+- Use AI/rules to generate a score and priority.
+- Use the score to determine follow-up actions.
+
+AI workflow debugging:
+- Inspect the node output.
+- Check data structure and field mappings.
+- Verify API responses.
+- Check authentication and credentials.
+- Test with a small dataset.
+- Reduce batch size when necessary.
+- Add waiting/retry logic when required.
+- Validate downstream outputs.
+
+API integration:
+- Read the API documentation.
+- Understand authentication.
+- Test endpoints manually.
+- Validate request and response formats.
+- Implement the API in the workflow.
+- Handle errors, limits, and unexpected responses.
+- Test with small batches before scaling.
+
+Post-launch workflow thinking:
+- Monitor workflow execution.
+- Check API failures and rate limits.
+- Review AI output quality.
+- Monitor CRM updates.
+- Track whether lead scores and personalized outputs
+  are actually being used by the sales process.
+- Improve prompts, mappings, batching, and error handling based
+  on observed behaviour.
+
+
+==================================================
+PORTFOLIO POSITIONING
+==================================================
+
+Flagship GTM project:
+AI GTM Copilot — End-to-End GTM Intelligence & CRM Automation
+
+Strong supporting projects:
+- AI GTM Company Enrichment & CRM Automation
+- AI Revenue Intelligence CRM Automation Agent
+- AI GTM Discovery Agent
+- RevIQ AI Revenue Intelligence — in progress
+- The Logic Circuit Simulator
+
+GitHub:
+https://github.com/archanakrishnan094-max
+
+
+==================================================
+APPLICATION PRINCIPLE
+==================================================
+
+For resumes, cover letters, application questions, and interviews:
+
+- Prioritize genuine hands-on implementation.
+- Connect technical work to business/GTM outcomes.
+- Use concrete examples from the portfolio.
+- Present the EEE background as a technical foundation.
+- Present the career transition as intentional skill development.
+- Be transparent about projects that are still in progress.
+- Emphasize ability to learn new APIs and tools quickly through
+  documentation, testing, and implementation.

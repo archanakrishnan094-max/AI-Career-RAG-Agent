@@ -1,0 +1,422 @@
+﻿HANDS-ON PROJECT INVENTORY
+
+GitHub:
+https://github.com/archanakrishnan094-max
+
+IMPORTANT:
+Only claim features that are actually implemented and demonstrable.
+RevIQ is an IN-PROGRESS project and must not be presented as completed.
+
+==================================================
+1. AI GTM Copilot – End-to-End GTM Intelligence & CRM Automation
+==================================================
+
+Status:
+Completed / demonstrable
+
+Hands-on workflow:
+- Company input
+- Apollo MCP enrichment
+- Firecrawl website enrichment
+- Data merging
+- Groq LLM analysis
+- GTM insights and qualification
+- Lead scoring
+- Personalized outreach
+- Multi-step sales sequence
+- HubSpot CRM updates
+- Excel / spreadsheet reporting
+
+Technologies:
+- n8n
+- Apollo MCP
+- Firecrawl
+- Groq
+- HubSpot
+- Excel / Google Sheets
+- APIs
+- Structured JSON
+
+Positioning:
+End-to-end AI GTM automation system connecting research, enrichment,
+qualification, outreach, sales sequencing, and CRM operations.
+
+
+==================================================
+2. AI GTM Company Enrichment & CRM Automation
+==================================================
+
+Status:
+Completed / demonstrable
+
+Hands-on workflow:
+- Company data input
+- Clay enrichment
+- Google Sheets
+- n8n processing
+- Groq revenue-intelligence analysis
+- Structured research JSON
+- HubSpot company creation
+- CRM activity logging
+
+AI outputs include:
+- Business summary
+- Products/services
+- Target customers
+- Business challenges
+- AI automation opportunities
+- Recommended solution
+- Lead score
+- Priority
+- Personalized outreach content
+
+Technologies:
+- Clay
+- n8n
+- Groq
+- Google Sheets
+- HubSpot
+- JSON / APIs
+
+Positioning:
+AI-powered company enrichment and CRM automation workflow.
+
+
+==================================================
+3. AI Revenue Intelligence & CRM Automation Agent
+==================================================
+
+Status:
+Completed / demonstrable
+
+Hands-on workflow:
+- Lead/company input
+- Google Sheets
+- n8n
+- Loop Over Items
+- Groq AI processing
+- Structured JSON
+- HubSpot Company creation
+- HubSpot Contact creation
+- HubSpot Deal creation
+- CRM activity logging
+- Batch processing
+
+Technologies:
+- n8n
+- Groq
+- HubSpot
+- Google Sheets
+- APIs
+- Structured JSON
+
+Positioning:
+AI-powered revenue intelligence and CRM automation workflow.
+
+
+==================================================
+4. AI GTM Discovery Agent
+==================================================
+
+Status:
+Completed / demonstrable
+
+Purpose:
+AI application supporting sales discovery preparation and company research.
+
+Capabilities:
+- Company overview
+- Business challenges
+- Stakeholder insights
+- Demo recommendations
+- Discovery questions
+- Executive summary
+- Exportable reports
+
+Technologies:
+- React
+- JavaScript
+- Tailwind CSS
+- AI APIs
+- Replit / Emergent AI
+
+Positioning:
+AI-powered GTM discovery and research application.
+
+
+==================================================
+5. RevIQ AI Revenue Intelligence
+==================================================
+
+Status:
+IN PROGRESS
+
+Purpose:
+AI revenue intelligence system designed to connect Salesforce opportunity data with a FastAPI/Python backend, database storage, revenue/deal-risk analysis, and AI/LangGraph orchestration.
+
+Current implemented architecture:
+Salesforce → FastAPI/Python → SQLite + SQLAlchemy → Revenue/Deal-Risk Analysis → LangGraph/AI Layer
+
+Implemented components:
+- Project configuration and environment setup
+- Pydantic models
+- SQLite database
+- SQLAlchemy database layer
+- Opportunity CRUD operations
+- FastAPI backend/API
+- Swagger/OpenAPI documentation
+- Revenue and deal-risk analysis engine
+- Groq AI analysis
+- Structured AI output
+- LangGraph workflow
+- FastAPI ↔ LangGraph integration
+- Error handling
+- Salesforce OAuth authentication
+- Salesforce access and refresh token handling
+- Salesforce Opportunity retrieval
+- Automated tests
+
+Salesforce integration:
+- Salesforce Developer Edition
+- OAuth authentication
+- Access token and refresh token handling
+- Salesforce Opportunity API retrieval
+
+Database:
+- SQLite
+- SQLAlchemy
+
+Backend:
+- Python
+- FastAPI
+- Pydantic
+- REST APIs
+
+AI and orchestration:
+- Groq LLM
+- LangGraph
+- Structured AI outputs
+- Revenue/deal-risk analysis
+
+Development branch:
+revIQ-development
+
+Development checkpoints:
+- ef9014b — SQLite/SQLAlchemy database layer
+- 44fca4c — AI revenue risk analysis
+- 6be9381 — LangGraph workflow
+- 64d4390 — FastAPI–LangGraph integration
+
+Current project checkpoint:
+The core backend, database layer, Salesforce integration, revenue/deal-risk analysis, and LangGraph/FastAPI workflow have been implemented and tested.
+Deal-risk analysis:
+RevIQ pulls Salesforce Opportunity data including:
+- Opportunity stage
+- Deal value
+- Probability
+- Close date
+- Other contextual Opportunity fields
+
+The revenue and deal-risk engine analyzes these factors and produces:
+- A final risk score
+- Supporting deal-risk analysis
+
+The analysis is processed through the LangGraph/AI workflow and exposed through the FastAPI backend.
+
+Technical challenges / debugging experience:
+- Salesforce OAuth required handling authorization, access tokens, and refresh tokens correctly so the backend could retrieve Opportunity data.
+- The FastAPI backend needed to be connected correctly with the LangGraph workflow so AI revenue/deal-risk analysis could be triggered through the API.
+- The project required separating database operations, Salesforce integration, revenue/deal-risk logic, and AI orchestration into clear components.
+- Automated testing was used to verify the implemented functionality during development.
+
+Interview positioning:
+When discussing technical challenges, describe these as hands-on implementation and debugging experience. Do not claim that any one of them was the "biggest challenge" unless a specific challenge has been explicitly identified.
+
+Next planned work:
+- Gong-style meeting intelligence
+- Post-call / postQrel-style analysis
+- Additional AI revenue-intelligence agents
+- More advanced LangGraph orchestration
+- Dashboard/UI
+- Additional integrations
+- Final end-to-end integration and testing
+
+Important:
+RevIQ is still IN PROGRESS. The planned meeting intelligence, postQrel-style analysis, additional agents, dashboard, additional integrations, and final end-to-end work should NOT be described as completed until they are implemented and tested.
+
+GitHub:
+https://github.com/archanakrishnan094-max
+
+==================================================
+7. AI GTM Bulk Outreach Automation Agent
+==================================================
+
+Status:
+Completed / demonstrable
+
+Purpose:
+End-to-end GTM outreach automation workflow built with n8n.
+
+Hands-on workflow:
+- Reads multiple companies from Google Sheets
+- Processes companies individually
+- Collects company information through HTTP requests
+- Generates structured AI-powered GTM research
+- Identifies business summary, target customers, pain points, and AI opportunities
+- Generates personalized cold emails
+- Sends emails through Gmail
+- Logs research and outreach history in Google Sheets
+- Uses Loop Over Companies and Wait for controlled processing
+- Uses JavaScript / JSON parsing for structured outputs
+
+Technologies:
+- n8n
+- Groq LLM
+- Google Sheets
+- Gmail
+- HTTP APIs
+- JavaScript
+- JSON
+
+Positioning:
+AI-powered GTM bulk outreach automation connecting company research,
+AI analysis, personalized email generation, Gmail delivery, and
+outreach logging.
+
+
+==================================================
+8. AI Revenue Intelligence & Sales Outreach Agent
+==================================================
+
+Status:
+Completed / demonstrable
+
+Purpose:
+End-to-end AI-powered revenue intelligence and sales outreach workflow.
+
+Hands-on workflow:
+- Company research
+- Revenue intelligence generation
+- Sales outreach analysis
+- Buyer persona identification
+- Lead scoring
+- Structured JSON generation
+- Personalized cold email generation
+- Google Sheets integration
+- Gmail automation
+
+Workflow architecture:
+Chat Trigger
+→ Revenue Intelligence Agent
+→ Sales Outreach Agent
+→ Structured Data Agent
+→ JavaScript company data formatter
+→ AI Cold Email Generator
+→ JavaScript email formatter
+→ Merge Company + Email Data
+→ Google Sheets
+→ Gmail Automation
+
+Technologies:
+- n8n
+- OpenAI
+- Google Sheets
+- Gmail
+- JavaScript
+- JSON
+- Prompt Engineering
+
+Positioning:
+AI-powered revenue intelligence and sales outreach automation system
+connecting company research, qualification, sales insights, personalized
+outreach, and email automation.
+
+
+==================================================
+9. ROB AI Service Discovery Chatbot
+==================================================
+
+
+Status:
+Completed / demonstrable
+
+Purpose:
+AI-powered conversational chatbot built with Landbot AI to help website visitors discover AI-based business services, understand available services, and engage with the business.
+
+Hands-on implementation:
+- Interactive conversational chatbot
+- Guided service discovery
+- Visitor greeting and navigation
+- Multiple service categories
+- Button-based conversational responses
+- Service information delivery
+- Lead qualification support
+- 24/7 customer assistance
+- Guided path toward contacting the business
+
+Available services:
+- Chatbot Creation
+- Review Management
+- Customer Onboarding
+- AI Product Image & Video Creation
+- Professional Portfolio Creation
+- Professional Website Creation
+
+Workflow:
+1. Visitor opens the chatbot.
+2. Chatbot greets the visitor.
+3. Visitor selects a service.
+4. Chatbot provides relevant service information.
+5. Visitor can explore additional services.
+6. Chatbot guides the visitor toward contacting the business.
+
+Technology Stack:
+- Landbot AI
+- No-code chatbot builder
+- Conversational UI
+- Decision Tree Flow
+- Web-based chatbot deployment
+
+Business Value:
+- Improves customer engagement
+- Increases service awareness
+- Reduces repetitive customer inquiries
+- Provides instant responses
+- Supports lead qualification
+- Helps guide potential customers toward contacting the business
+
+GitHub:
+https://github.com/archanakrishnan094-max/ROB-AI-Service-Discovery-Chatbot
+
+Important:
+The following are planned Version 2 improvements and are NOT currently completed:
+- OpenAI API integration
+- Voice-enabled chatbot
+- Lead capture form
+- Email notifications
+- CRM integration
+- WhatsApp integration
+- Multi-language support
+- AI-generated personalized responses
+- Appointment booking
+- Analytics dashboard
+==================================================
+
+AI GTM Automation — Debugging & Troubleshooting Experience
+
+Documented hands-on debugging examples:
+
+1. AI output formatting:
+An AI node returned output that was not valid JSON for the downstream workflow. I improved the prompt with tighter formatting instructions and examples, then tested the downstream nodes again.
+
+2. API batch-size handling:
+A company-research workflow showed inconsistent API behavior when processing around 20 companies at once. I reduced the batch size progressively and found a smaller stable processing range, around 5–6 companies.
+
+3. Clay batch processing:
+A Clay enrichment workflow initially processed a batch of 17 records. I reduced the batch size to 5 and added a Wait step to make processing more controlled.
+
+4. Bulk outreach processing:
+For bulk outreach, I used Loop Over Items → HTTP Request → Wait. I reduced the processing batch size and controlled the waiting between requests to handle API processing more reliably.
+
+Interview positioning:
+These examples demonstrate hands-on debugging of AI output formatting, API limits/batching, workflow timing, and downstream automation behavior. Describe them as project debugging experience, not as production incidents or organizational impact.
