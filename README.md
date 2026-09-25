@@ -704,7 +704,7 @@ Through this project, I gained hands-on experience with:
 
 # 🚧 Current Project Status
 
-**Status: In Progress**
+**Status: IN PROGRESS**
 
 ### Implemented
 
@@ -716,17 +716,17 @@ Through this project, I gained hands-on experience with:
 * Semantic retrieval
 * Groq LLM integration
 * Grounded response generation
-* n8n Gmail-based career workflow
-* HTTP Request nodes
-* Code-based processing
-* Structured career analysis
-* Deadline/status processing
-* Career alert generation
+* Project-specific retrieval logic
+* Status-aware prompt grounding
 * GitHub Pages privacy policy
 * GitHub Pages data deletion instructions
 
 ### In Progress
 
+* n8n Gmail-based career alert workflow
+* Career email analysis and structured output workflow
+* Deadline/status processing
+* Career alert generation
 * WhatsApp Business integration
 * WhatsApp notification node
 * API credentials configuration
