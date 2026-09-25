@@ -1,7 +1,13 @@
 from pathlib import Path
 
+from sentence_transformers import SentenceTransformer
+
 from app.config import DOCUMENTS_DIR
 from app.ingest import collection
+
+
+# Use the same embedding model used during document ingestion
+model = SentenceTransformer("all-MiniLM-L6-v2")
 
 
 def search(query, n_results=6):
@@ -31,8 +37,12 @@ def search(query, n_results=6):
             text = projects_file.read_text(encoding="utf-8-sig")
             return [text]
 
+    # Generate an embedding for the user's question
+    query_embedding = model.encode([query]).tolist()
+
+    # Search ChromaDB using the same embedding model
     results = collection.query(
-        query_texts=[query],
+        query_embeddings=query_embedding,
         n_results=n_results
     )
 
