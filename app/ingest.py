@@ -31,8 +31,13 @@ def ingest_documents():
             ids.append(f"{file.stem}_{index}")
 
     if documents:
+        # Generate embeddings using Sentence Transformers
+        embeddings = model.encode(documents).tolist()
+
+        # Store documents and embeddings in ChromaDB
         collection.upsert(
             documents=documents,
+            embeddings=embeddings,
             ids=ids
         )
 
