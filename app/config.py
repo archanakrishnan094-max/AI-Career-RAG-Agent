@@ -5,4 +5,4 @@ DATA_DIR = BASE_DIR / "data"
 DOCUMENTS_DIR = DATA_DIR / "documents"
 
 CHROMA_DIR = DATA_DIR / "chroma_db"
-COLLECTION_NAME = "reviq_knowledge"
+COLLECTION_NAME = "ai_career_knowledge"
