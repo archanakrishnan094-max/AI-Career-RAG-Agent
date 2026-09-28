@@ -108,69 +108,178 @@ Example 3 — Bulk outreach workflow:
 ==================================================
 REV IQ — CURRENT INTERVIEW POSITIONING
 ==================================================
-
 Project:
 RevIQ AI Revenue Intelligence
 
 Status:
 IN PROGRESS — NOT COMPLETED
 
-Current implemented work:
-- Salesforce Developer Edition integration
-- Salesforce OAuth authentication
-- Access and refresh token handling
-- Salesforce Opportunity retrieval
-- Python backend
-- FastAPI
-- SQLAlchemy
-- SQLite
-- Opportunity CRUD
-- Revenue / deal risk engine
-- Automated tests
+Purpose:
+AI revenue-intelligence system connecting Salesforce Opportunity
+data with a Python/FastAPI backend, database storage, revenue and
+deal-risk analysis, and AI/LangGraph orchestration.
 
 Current architecture:
 Salesforce
-    ↓
+↓
 FastAPI / Python
-    ↓
+↓
 SQLite / SQLAlchemy
-    ↓
-Revenue / deal risk analysis
+↓
+Revenue / Deal-Risk Analysis
+↓
+LangGraph / AI Layer
+
+Current implemented work:
+
+* Project configuration and environment setup
+* Pydantic models
+* Python backend
+* FastAPI API
+* Swagger/OpenAPI documentation
+* SQLite database
+* SQLAlchemy database layer
+* Opportunity CRUD operations
+* Salesforce Developer Edition integration
+* Salesforce OAuth authentication
+* Salesforce access and refresh token handling
+* Salesforce Opportunity retrieval
+* Revenue and deal-risk analysis engine
+* Groq AI analysis
+* Structured AI output
+* LangGraph workflow
+* FastAPI ↔ LangGraph integration
+* Error handling
+* Automated tests
+
+Salesforce Opportunity data used by the system:
+
+* Opportunity stage
+* Deal value
+* Probability
+* Close date
+* Other contextual Opportunity fields
+
+Revenue / deal-risk analysis:
+The system analyzes Salesforce Opportunity information and produces:
+
+* A final risk score
+* Supporting deal-risk analysis
+
+Current AI/orchestration implementation:
+
+* Groq LLM
+* LangGraph
+* Structured AI outputs
+* Revenue/deal-risk analysis workflow
+
+Important RevIQ status:
+RevIQ is still IN PROGRESS.
+
+The implemented components above can be described as completed,
+implemented, and tested where applicable.
+
+Do NOT describe the following planned work as completed:
 
 Planned future work:
-- LangGraph orchestration
-- Gong-style meeting intelligence
-- postQrel
-- Additional AI revenue-intelligence agents
-- Dashboard
-- Additional integrations
-- Final integration and testing
 
-IMPORTANT:
-Never describe the planned RevIQ components as completed.
-Only describe features that are actually implemented and tested.
+* Gong-style meeting intelligence
+* Post-call / postQrel-style analysis
+* Additional AI revenue-intelligence agents
+* More advanced LangGraph orchestration
+* Dashboard/UI
+* Additional integrations
+* Final end-to-end integration and testing
 
+Interview positioning:
+Describe RevIQ as an AI revenue-intelligence project that is
+currently in progress. Highlight the implemented Salesforce,
+FastAPI, database, deal-risk, Groq, and LangGraph components while
+clearly separating planned future features.
 
 ==================================================
-CURRENT LEARNING BOUNDARIES
+CURRENT TECHNOLOGY STATUS
 ==================================================
 
-The following should be described honestly as learning, planned,
-or future work rather than professional production experience:
+The following technology status should be described accurately
+based on actual hands-on project implementation.
 
-- RAG / vector databases
-- LangChain
-- LangGraph
-- CrewAI
-- AutoGen
+RAG / VECTOR SEARCH:
 
-RevIQ is currently being used to build deeper experience with
-Python, FastAPI, Salesforce integration, OAuth, databases, and
-AI-agent orchestration.
+* Completed / demonstrable in the AI Career RAG Agent project.
+* Implemented document ingestion using Python.
+* Implemented section-based document chunking.
+* Generated embeddings using Sentence Transformers.
+* Used the all-MiniLM-L6-v2 embedding model.
+* Stored document embeddings and content in ChromaDB.
+* Implemented semantic query retrieval.
+* Integrated Groq LLM for grounded answer generation.
+* Added grounding rules to reduce unsupported claims.
+* Tested project, technology, debugging, interview, and
+  project-status questions.
 
-Do not claim professional experience with a technology that has
-only been studied or planned.
+CHROMADB:
 
+* Completed / demonstrable in the AI Career RAG Agent project.
+* Used as persistent vector storage for the career knowledge base.
+* Used for semantic retrieval of relevant career information.
+
+SENTENCE TRANSFORMERS:
+
+* Completed / demonstrable in the AI Career RAG Agent project.
+* Used the all-MiniLM-L6-v2 model to generate document and
+  query embeddings.
+
+GROQ LLM:
+
+* Used across multiple hands-on projects.
+* Used for AI analysis, structured outputs, GTM workflows,
+  revenue/deal-risk analysis, and grounded RAG responses.
+
+LANGGRAPH:
+
+* Implemented / demonstrable in the RevIQ AI Revenue Intelligence
+  project.
+* Used to orchestrate the revenue/deal-risk AI workflow.
+* Integrated with the FastAPI backend.
+* RevIQ itself is still IN PROGRESS.
+* Therefore, describe LangGraph as implemented in an
+  in-progress project, not as professional production experience.
+
+LANGCHAIN:
+
+* Learning / planned.
+* No completed hands-on project should currently be claimed.
+
+CREWAI:
+
+* Learning / planned.
+* No completed hands-on project should currently be claimed.
+
+AUTOGEN:
+
+* Learning / planned.
+* No completed hands-on project should currently be claimed.
+
+OPENAI:
+
+* Used in the AI Revenue Intelligence & Sales Outreach Agent
+  project.
+* Do not describe OpenAI as unused.
+* Keep OpenAI usage associated with the project where it is
+  actually implemented.
+
+IMPORTANT TECHNOLOGY RULE:
+Do not describe a technology as professionally used or completed
+unless the knowledge base explicitly documents hands-on
+implementation.
+
+Do not convert learning, planned, or future technologies into
+completed project experience.
+
+Do not describe RevIQ as completed. RevIQ remains IN PROGRESS,
+even though its LangGraph workflow and other listed components
+have been implemented and tested.
 
 ==================================================
 INTERVIEW ANSWER STYLE

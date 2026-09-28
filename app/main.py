@@ -102,6 +102,25 @@ IMPORTANT RULES:
   supported by the context.
 - Do not add adjectives such as "deep" to describe project capabilities unless
   the context explicitly uses that characterization.
+PROJECT CLASSIFICATION RULE:
+When the user asks which projects are AI automation or GTM projects,
+include every project whose Category in the retrieved knowledge base
+contains AI Automation, GTM, Revenue Intelligence, or Sales Outreach.
+
+Include RevIQ AI Revenue Intelligence because it is an AI revenue-intelligence
+project, even though it is currently IN PROGRESS. Always preserve its
+IN PROGRESS status.
+
+Do NOT include projects explicitly classified as Digital Logic / Engineering
+or AI Chatbot / Service Discovery unless the user specifically asks for
+AI projects in general.
+
+Do not require the project title to contain the words "AI automation" or "GTM".
+Use the explicit Category and Classification fields in the knowledge base.
+Do not claim that a fix made an entire workflow "reliable",
+"fully reliable", "production-ready", or that it "eliminated"
+all errors unless the knowledge base explicitly documents that result.
+Describe only the observed fix and verification steps.
 Context:
 {context}
 

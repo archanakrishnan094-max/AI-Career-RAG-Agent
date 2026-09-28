@@ -1,4 +1,4 @@
-﻿HANDS-ON PROJECT INVENTORY
+HANDS-ON PROJECT INVENTORY
 
 GitHub:
 https://github.com/archanakrishnan094-max
@@ -13,6 +13,8 @@ RevIQ is an IN-PROGRESS project and must not be presented as completed.
 
 Status:
 Completed / demonstrable
+Category:
+AI Automation / GTM
 
 Hands-on workflow:
 - Company input
@@ -151,6 +153,13 @@ AI-powered GTM discovery and research application.
 Status:
 IN PROGRESS
 
+Category:
+AI Revenue Intelligence
+
+Classification:
+AI revenue-intelligence system
+Currently IN PROGRESS
+
 Purpose:
 AI revenue intelligence system designed to connect Salesforce opportunity data with a FastAPI/Python backend, database storage, revenue/deal-risk analysis, and AI/LangGraph orchestration.
 
@@ -248,6 +257,61 @@ GitHub:
 https://github.com/archanakrishnan094-max
 
 ==================================================
+6. The Logic Circuit Simulator
+==============================
+
+Status:
+Completed / demonstrable
+
+Category:
+Digital Logic / Engineering
+
+Classification:
+NOT an AI automation workflow
+NOT a GTM workflow
+
+Purpose:
+Interactive browser-based logic circuit simulator for designing,
+testing, and visualizing digital logic circuits in real time.
+
+Hands-on implementation:
+
+* Interactive browser-based circuit design
+* Drag-and-drop style placement of logic gates
+* AND, OR, NOT, NAND, NOR, XOR, and XNOR gates
+* Real-time signal simulation
+* Toggle inputs and observe output changes
+* Visual wiring between logic gates
+* Combinational circuit construction
+* Client-side circuit evaluation
+* Browser-based interface with no backend or installation required
+
+Technologies:
+
+* HTML5
+* CSS3
+* Vanilla JavaScript
+* Boolean logic
+* Digital logic / circuit simulation
+
+Architecture:
+User
+→ Browser
+→ HTML Interface
+→ JavaScript Logic Engine
+→ Logic Gate Evaluation
+→ Output Display
+
+Positioning:
+Hands-on electronics and software engineering project combining
+digital logic, circuit fundamentals, frontend development, and
+browser-based simulation.
+
+GitHub:
+https://github.com/archanakrishnan094-max/The-Logic--Circuit-Simulator
+
+
+==================================================
 7. AI GTM Bulk Outreach Automation Agent
 ==================================================
 
@@ -340,6 +404,17 @@ outreach, and email automation.
 Status:
 Completed / demonstrable
 
+Category:
+AI Chatbot / Service Discovery
+
+Classification:
+NOT an AI automation workflow
+NOT a GTM automation workflow
+
+Primary focus:
+Conversational service discovery, visitor engagement, and guided
+navigation through business services.
+
 Purpose:
 AI-powered conversational chatbot built with Landbot AI to help website visitors discover AI-based business services, understand available services, and engage with the business.
 
@@ -387,6 +462,68 @@ Business Value:
 
 GitHub:
 https://github.com/archanakrishnan094-max/ROB-AI-Service-Discovery-Chatbot
+
+==================================================
+
+10. AI Career RAG Agent – Personal Knowledge Base & Interview Assistant
+
+GitHub:
+https://github.com/archanakrishnan094-max/AI-Career-RAG-Agent
+
+Project status:
+IN PROGRESS
+
+Core Python RAG system:
+Completed / demonstrable
+
+Current in-progress work:
+- n8n Gmail-based career alert workflow
+- WhatsApp Business notification integration
+
+Important:
+The core Python RAG system is implemented and demonstrable,
+but the overall AI Career RAG Agent project is still IN PROGRESS.
+WhatsApp notification integration is not yet completed.
+
+Purpose:
+A personal RAG-based AI assistant that retrieves relevant information from my career profile, projects, and job-application knowledge base and generates grounded responses for interview preparation and career-related questions.
+
+Hands-on implementation:
+- Created a structured personal career knowledge base using profile, project, and job-application documents
+- Implemented document ingestion using Python
+- Split documents into meaningful sections for retrieval
+- Generated embeddings using Sentence Transformers with the all-MiniLM-L6-v2 model
+- Stored document embeddings and content in ChromaDB
+- Implemented semantic query retrieval using the same embedding model
+- Integrated Groq LLM for grounded answer generation
+- Added prompt rules to prevent unsupported claims and overstatement of experience
+- Added project-specific retrieval logic for questions requiring the complete project inventory or detailed project information
+- Added status-aware grounding so completed, in-progress, learning, and planned work are distinguished
+- Tested the system with project inventory, technology, debugging, interview, and project-status questions
+
+Knowledge base:
+- Career profile
+- Project portfolio
+- Job applications and career-related information
+
+Architecture:
+User Query → Query Embedding → ChromaDB Retrieval → Relevant Career Context → Groq LLM → Grounded Response
+
+Technologies:
+Python, ChromaDB, Sentence Transformers, all-MiniLM-L6-v2, Groq LLM, embeddings, vector search, semantic retrieval, prompt engineering, structured text knowledge base
+
+Category:
+AI / RAG / Knowledge Assistant
+
+Classification:
+AI RAG project
+Personal knowledge-base and interview assistant
+
+Important status:
+The core Python RAG system is implemented and demonstrable.
+
+Separate planned/in-progress integration:
+An n8n Gmail-based career alert workflow and WhatsApp Business notification integration are being developed separately. WhatsApp notification integration is not yet completed.
 
 Important:
 The following are planned Version 2 improvements and are NOT currently completed:
